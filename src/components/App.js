@@ -1,11 +1,11 @@
 
-import React from "react";
+import React, {useState} from "react";
 import './../styles/App.css';
 
 const App = () => {
 
 
-  let[sum,setSum] = useState(0)
+  const [sum,setSum] = useState(0);
 
 
 
@@ -20,4 +20,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
